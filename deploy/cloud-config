@@ -1,0 +1,14 @@
+[Global]
+auth-url=https://iam.eu-west-0.prod-cloud-ocb.orange-business.com/v3
+access-key=REPLACE-WITH-YOUR-AK
+secret-key=REPLACE-WITH-YOUR-SK
+region=eu-west-0
+availability-zone=eu-west-0a
+project-name=eu-west-0_test
+project-id=245892c6186b48f285391f3f2223660a
+
+[Vpc]
+#The VPC where your cluster resides
+id=8eed4fc7-e5e5-44a2-b5f2-23b3e5d46235
+subnet-id=d1778d85-092f-415d-a8bd-1fe86cb474cc
+security-group-id=e6ef0139-cec0-462e-87cd-45fab6f56521
