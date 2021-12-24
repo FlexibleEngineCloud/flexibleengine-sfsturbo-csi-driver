@@ -1,5 +1,5 @@
 # SFS-turbo CSI Driver for Kubernetes
-SFS-turbo Container Storage Interface (CSI) Plugin `sfs-turbo.csi.huaweicloud.com`
+SFS-turbo Container Storage Interface (CSI) Plugin
 
 ### Prerequisite
  - The driver initialization depends on a [cloud config file](./deploy/cloud-config). Make sure it's in `/etc/sfs-turbo/cloud-config` on your node.
