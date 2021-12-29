@@ -22,6 +22,10 @@ kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexiblee
 kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfs-turbo-csi-driver/master/examples/sfs-turbo-csi-plugin/kubernetes/pod.yaml
 ```
 
+#### Note
+When creating pod, it takes a while because a sfs turbo instance will be created dedicated inside of your cluter's vpc.
+
+
 ### Links
  - [Kubernetes CSI Documentation](https://kubernetes-csi.github.io/docs/Home.html)
  - [CSI Drivers](https://github.com/kubernetes-csi/drivers)
