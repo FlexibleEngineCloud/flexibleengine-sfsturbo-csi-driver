@@ -7,19 +7,19 @@ SFS-turbo Container Storage Interface (CSI) Plugin
 ### Install SFS-turbo CSI driver
 
 ```
-kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfs-turbo-csi-driver/master/deploy/sfs-turbo-csi-plugin/kubernetes/rbac-csi-SFS-turbo-controller.yaml
-kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfs-turbo-csi-driver/master/deploy/sfs-turbo-csi-plugin/kubernetes/rbac-csi-SFS-turbo-node.yaml
-kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfs-turbo-csi-driver/master/deploy/sfs-turbo-csi-plugin/kubernetes/csi-sfs-turbo-controller.yaml
-kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfs-turbo-csi-driver/master/deploy/sfs-turbo-csi-plugin/kubernetes/csi-sfs-turbo-node.yaml
-kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfs-turbo-csi-driver/master/deploy/sfs-turbo-csi-plugin/kubernetes/csi-sfs-turbo-driver.yaml
+kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfsturbo-csi-driver/master/deploy/sfs-turbo-csi-plugin/kubernetes/csi-sfs-turbo-controller.yaml
+kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfsturbo-csi-driver/master/deploy/sfs-turbo-csi-plugin/kubernetes/csi-sfs-turbo-driver.yaml
+kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfsturbo-csi-driver/master/deploy/sfs-turbo-csi-plugin/kubernetes/csi-sfs-turbo-node.yaml
+kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfsturbo-csi-driver/master/deploy/sfs-turbo-csi-plugin/kubernetes/rbac-csi-sfs-turbo-controller.yaml
+kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfsturbo-csi-driver/master/deploy/sfs-turbo-csi-plugin/kubernetes/rbac-csi-sfs-turbo-node.yaml
 ```
 
 ### Examples
 
 ```
-kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfs-turbo-csi-driver/master/examples/sfs-turbo-csi-plugin/kubernetes/sc.yaml
-kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfs-turbo-csi-driver/master/examples/sfs-turbo-csi-plugin/kubernetes/pvc.yaml
-kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfs-turbo-csi-driver/master/examples/sfs-turbo-csi-plugin/kubernetes/pod.yaml
+kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfsturbo-csi-driver/master/examples/sfs-turbo-csi-plugin/kubernetes/sc.yaml
+kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfsturbo-csi-driver/master/examples/sfs-turbo-csi-plugin/kubernetes/pvc.yaml
+kubectl apply -f https://raw.githubusercontent.com/FlexibleEngineCloud/flexibleengine-sfsturbo-csi-driver/master/examples/sfs-turbo-csi-plugin/kubernetes/pod.yaml
 ```
 
 #### Note
